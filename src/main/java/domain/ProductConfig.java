@@ -8,6 +8,5 @@
 
 package domain;
 
-public class Product {
-
+public class ProductConfig {
 }
