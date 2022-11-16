@@ -65,4 +65,15 @@ public class Product {
     public void setProductRating(String productRating) {
         this.productRating = productRating;
     }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "productId=" + productId +
+                ", productName='" + productName + '\'' +
+                ", productPrice=" + productPrice +
+                ", description='" + description + '\'' +
+                ", productRating='" + productRating + '\'' +
+                '}';
+    }
 }
