@@ -15,5 +15,6 @@ public class Product {
     private String description;
     private String productRating;
 
-
+    public Product() {
+    }
 }
