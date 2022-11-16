@@ -17,4 +17,12 @@ public class Product {
 
     public Product() {
     }
+
+    public Product(int productId, String productName, double productPrice, String description, String productRating) {
+        this.productId = productId;
+        this.productName = productName;
+        this.productPrice = productPrice;
+        this.description = description;
+        this.productRating = productRating;
+    }
 }
