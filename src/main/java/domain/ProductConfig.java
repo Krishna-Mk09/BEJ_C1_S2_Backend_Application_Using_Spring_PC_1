@@ -9,4 +9,6 @@
 package domain;
 
 public class ProductConfig {
+
+
 }
